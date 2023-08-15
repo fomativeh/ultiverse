@@ -1,0 +1,15 @@
+.hero {
+    position: relative;
+    background-image: url('../assets/images/hero-bg.svg');
+    background-size: contain; /* Adjust how the image covers the element */
+    background-position: center center; /* Adjust the image position */
+    height: 100vh;
+    cursor: url('../assets/images/cursor.svg'), auto;
+}
+
+.no-drag{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

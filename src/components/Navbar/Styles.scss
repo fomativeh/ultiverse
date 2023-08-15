@@ -1,0 +1,78 @@
+.dynamic-width-a {
+  width: calc((90vw - 80px) / 2);
+}
+
+.dynamic-width-b {
+  width: calc((90vw + 80px) / 2);
+}
+
+.progress-parent {
+  background-color: #ffffff22;
+
+  > div {
+    animation: fillDrop 5s ease-in-out 0s infinite forwards;
+  }
+}
+
+@keyframes fillDrop {
+  0% {
+    width: 30%;
+  }
+
+  25% {
+    width: 50%;
+  }
+
+  35% {
+    width: 15%;
+  }
+
+  50% {
+    width: 40%;
+  }
+
+  60% {
+    width: 55%;
+  }
+
+  75% {
+    width: 67%;
+  }
+
+  85% {
+    width: 77%;
+  }
+
+  100% {
+    width: 30%; 
+  }
+}
+
+
+@font-face {
+  font-family: "Terminus";
+  src: url("/fonts/Terminus (TTF) 500.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Terminus";
+  src: url("/fonts/Terminus (TTF) Bold 700.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Terminus";
+  src: url("/fonts/Terminus (TTF) Bold Italic 700.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Terminus";
+  src: url("/fonts/Terminus (TTF) Italic 500.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
