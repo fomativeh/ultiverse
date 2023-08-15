@@ -1,10 +1,9 @@
-import Head from "next/head";
 import "./globals.css";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
@@ -12,7 +11,6 @@ export default function RootLayout({ children }) {
         <meta property="og:title" content="Ultiverse" />
         <meta property="og:site_name" content="Ultiverse" />
         <meta property="og:type" content="Website" />
-
 
         <meta
           property="og:description"
@@ -38,7 +36,7 @@ export default function RootLayout({ children }) {
         />
         <meta property="og:image" content="/meta-bg.svg" />
         <meta property="og:url" content="https://ultiverse-delta.vercel.app" />
-      </Head>
+      </head>
       <body>{children}</body>
     </html>
   );
