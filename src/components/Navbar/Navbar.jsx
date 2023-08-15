@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import logo from "../../assets/logo/logo.svg";
-import discordIcon from "../../assets/icons/discord.svg";
-import twitterIcon from "../../assets/icons/twitter.svg";
+import discordIcon from "../../assets/icons/Discord.svg";
+import twitterIcon from "../../assets/icons/Dwitter.svg";
 
 import "./Styles.scss";
 import { useState } from "react";
