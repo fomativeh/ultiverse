@@ -2,7 +2,7 @@
 import Image from "next/image";
 import logo from "../../assets/logo/logo.svg";
 import discordIcon from "../../assets/icons/Discord.svg";
-import twitterIcon from "../../assets/icons/Dwitter.svg";
+import twitterIcon from "../../assets/icons/Twitter.svg";
 
 import "./Styles.scss";
 import { useState } from "react";
