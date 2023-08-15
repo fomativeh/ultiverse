@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
           content="UTILIZING METAFI, UE5, AND WEB3 TECHONOLOGY TO CREATE A SOCIAL AND IMMERSIVE GAMING EXPERIENCE."
         />
         <meta property="og:image" content="/meta-bg.svg" />
-        <meta property="og:url" content="https://ultiverse.vercel.app" />
+        <meta property="og:url" content="https://ultiverse-delta.vercel.app" />
         <meta property="og:type" content="website" />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
           content="UTILIZING METAFI, UE5, AND WEB3 TECHONOLOGY TO CREATE A SOCIAL AND IMMERSIVE GAMING EXPERIENCE."
         />
         <meta name="twitter:image" content="/meta-bg.svg" />
-        <meta name="twitter:url" content="https://ultiverse.vercel.app" />
+        <meta name="twitter:url" content="https://ultiverse-delta.vercel.app" />
 
         <meta property="og:site_name" content="Ultiverse" />
         <meta
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
           content="UTILIZING METAFI, UE5, AND WEB3 TECHONOLOGY TO CREATE A SOCIAL AND IMMERSIVE GAMING EXPERIENCE."
         />
         <meta property="og:image" content="/meta-bg.svg" />
-        <meta property="og:url" content="https://ultiverse.vercel.app" />
+        <meta property="og:url" content="https://ultiverse-delta.vercel.app" />
       </Head>
       <body>{children}</body>
     </html>
