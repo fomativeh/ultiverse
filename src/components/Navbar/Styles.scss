@@ -1,3 +1,5 @@
+$theme-cyan: #00ffe6;
+
 .dynamic-width-a {
   width: calc((90vw - 80px) / 2);
 }
@@ -13,41 +15,6 @@
     animation: fillDrop 5s ease-in-out 0s infinite forwards;
   }
 }
-
-@keyframes fillDrop {
-  0% {
-    width: 30%;
-  }
-
-  25% {
-    width: 50%;
-  }
-
-  35% {
-    width: 15%;
-  }
-
-  50% {
-    width: 40%;
-  }
-
-  60% {
-    width: 55%;
-  }
-
-  75% {
-    width: 67%;
-  }
-
-  85% {
-    width: 77%;
-  }
-
-  100% {
-    width: 30%; 
-  }
-}
-
 
 @font-face {
   font-family: "Terminus";
@@ -75,4 +42,43 @@
   src: url("/fonts/Terminus (TTF) Italic 500.ttf");
   font-weight: normal;
   font-style: italic;
+}
+
+.link-wrap {
+  .icon-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+  }
+
+  &:hover {
+    background-color: $theme-cyan;
+
+    .icon-holder {
+      background-color: #000;
+    }
+
+    span {
+      color: #000;
+      font-weight: bold;
+    }
+  }
+}
+
+.ham {
+    transform-origin: center center;
+    div{
+        transition: all .44s ease-in 0s;
+    }
+
+  &:hover {
+    background-color: $theme-cyan;
+
+    div {
+      opacity: 1;
+      background-color: #000000;
+    }
+  }
+
 }

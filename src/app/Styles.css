@@ -13,3 +13,9 @@
     -ms-user-select: none;
     user-select: none;
 }
+
+.marquee-text{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    text-shadow: 2px 2px 4px rgba(19, 164, 166, 0.484);
+}
